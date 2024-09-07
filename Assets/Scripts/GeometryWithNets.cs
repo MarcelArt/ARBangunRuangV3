@@ -6,8 +6,13 @@ using UnityEngine;
 public class GeometryWithNets : MonoBehaviour
 {
     public List<GameObject> netStates;
+    public float rotationSpeed = 0.2f;  
+    public float tapTolerationTime;
 
     private int currentIndex;
+    private bool isDragging = false;
+    private Vector2 lastTouchPosition;
+    private float tapTolerationCountDown = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -34,15 +39,37 @@ public class GeometryWithNets : MonoBehaviour
 
             if (touch.phase == TouchPhase.Began)
             {
-                Debug.Log(1);
-                DetectTouch(touch.position);
+                isDragging = true;
+                lastTouchPosition = touch.position;
+
+                tapTolerationCountDown = tapTolerationTime;
+            } else if (touch.phase == TouchPhase.Moved && isDragging) {
+                RotateObject(touch.position);
+                lastTouchPosition = touch.position;
+
+                tapTolerationCountDown -= Time.deltaTime;
+            } else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled) {
+                isDragging = false;
+
+                if (tapTolerationCountDown > 0) DetectTouch(touch.position);
             }
         }
 
         // For mouse input (PC)
         if (Input.GetMouseButtonDown(0))
         {
-            DetectTouch(Input.mousePosition);
+            isDragging = true;
+            lastTouchPosition = Input.mousePosition;
+
+            tapTolerationCountDown = tapTolerationTime;
+        } else if (Input.GetMouseButton(0) && isDragging) {
+            RotateObject(Input.mousePosition);
+            lastTouchPosition = Input.mousePosition;
+            
+            tapTolerationCountDown -= Time.deltaTime;
+        } else if(Input.GetMouseButtonUp(0)) {
+            isDragging = false;
+            if (tapTolerationCountDown > 0) DetectTouch(Input.mousePosition);
         }
     }
 
@@ -67,4 +94,18 @@ public class GeometryWithNets : MonoBehaviour
 
         netStates[currentIndex].SetActive(true);
     }
+
+    void RotateObject(Vector2 currentTouchPosition)
+    {
+        Vector2 deltaPosition = currentTouchPosition - lastTouchPosition;
+
+        // Rotate around the Y axis (horizontal movement) and X axis (vertical movement)
+        float rotationX = deltaPosition.y * rotationSpeed;
+        float rotationY = -deltaPosition.x * rotationSpeed;
+
+        // Apply the rotation to the object
+        transform.Rotate(Vector3.up, rotationY, Space.World);
+        transform.Rotate(Vector3.right, rotationX, Space.World);
+    }
+
 }

@@ -139,6 +139,8 @@ MonoBehaviour:
   - {fileID: 2737651401705813366}
   - {fileID: 8804270164100270519}
   - {fileID: 5077784181147317421}
+  rotationSpeed: 0.2
+  tapTolerationTime: 0.2
 --- !u!65 &5844194424194755329
 BoxCollider:
   m_ObjectHideFlags: 0
