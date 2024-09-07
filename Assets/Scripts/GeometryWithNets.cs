@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 
 public class GeometryWithNets : MonoBehaviour
@@ -8,6 +9,7 @@ public class GeometryWithNets : MonoBehaviour
     public List<GameObject> netStates;
     public float rotationSpeed = 0.2f;  
     public float tapTolerationTime;
+    public TextMeshProUGUI textMeshPro;
 
     private int currentIndex;
     private bool isDragging = false;
@@ -93,6 +95,7 @@ public class GeometryWithNets : MonoBehaviour
         }
 
         netStates[currentIndex].SetActive(true);
+        textMeshPro.text = $"[{currentIndex}] {netStates[currentIndex].name}";
     }
 
     void RotateObject(Vector2 currentTouchPosition)
