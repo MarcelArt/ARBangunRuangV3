@@ -35,27 +35,27 @@ public class GeometryWithNets : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
+        // if (Input.touchCount > 0)
+        // {
+        //     Touch touch = Input.GetTouch(0);
 
-            if (touch.phase == TouchPhase.Began)
-            {
-                isDragging = true;
-                lastTouchPosition = touch.position;
+        //     if (touch.phase == TouchPhase.Began)
+        //     {
+        //         isDragging = true;
+        //         lastTouchPosition = touch.position;
 
-                tapTolerationCountDown = tapTolerationTime;
-            } else if (touch.phase == TouchPhase.Moved && isDragging) {
-                RotateObject(touch.position);
-                lastTouchPosition = touch.position;
+        //         tapTolerationCountDown = tapTolerationTime;
+        //     } else if (touch.phase == TouchPhase.Moved && isDragging) {
+        //         RotateObject(touch.position);
+        //         lastTouchPosition = touch.position;
 
-                tapTolerationCountDown -= Time.deltaTime;
-            } else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled) {
-                isDragging = false;
+        //         tapTolerationCountDown -= Time.deltaTime;
+        //     } else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled) {
+        //         isDragging = false;
 
-                if (tapTolerationCountDown > 0) DetectTouch(touch.position);
-            }
-        }
+        //         if (tapTolerationCountDown > 0) DetectTouch(touch.position);
+        //     }
+        // }
 
         // For mouse input (PC)
         if (Input.GetMouseButtonDown(0))
