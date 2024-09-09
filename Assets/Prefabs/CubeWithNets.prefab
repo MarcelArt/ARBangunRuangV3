@@ -92,8 +92,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2298597392071404404}
-  - component: {fileID: 8009828823304516881}
   - component: {fileID: 5844194424194755329}
+  - component: {fileID: 8856099500930059367}
   m_Layer: 0
   m_Name: CubeWithNets
   m_TagString: Untagged
@@ -121,26 +121,6 @@ Transform:
   - {fileID: 6602508972984806825}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8009828823304516881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7762261348936899447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a3e73c1904cdc742a32bbd29a78c8be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  netStates:
-  - {fileID: 5830756622697690899}
-  - {fileID: 1731510241041834969}
-  - {fileID: 2737651401705813366}
-  - {fileID: 8804270164100270519}
-  - {fileID: 5077784181147317421}
-  rotationSpeed: 0.2
-  tapTolerationTime: 0.2
 --- !u!65 &5844194424194755329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -162,6 +142,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8856099500930059367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7762261348936899447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a3e73c1904cdc742a32bbd29a78c8be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  netStates:
+  - {fileID: 5830756622697690899}
+  - {fileID: 1731510241041834969}
+  - {fileID: 2737651401705813366}
+  - {fileID: 8804270164100270519}
+  - {fileID: 5077784181147317421}
+  rotationSpeed: 0.2
+  tapTolerationTime: 0.2
+  textMeshPro: {fileID: 0}
 --- !u!1001 &1497137578564050568
 PrefabInstance:
   m_ObjectHideFlags: 0

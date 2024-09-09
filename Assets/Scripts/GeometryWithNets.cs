@@ -28,8 +28,7 @@ public class GeometryWithNets : MonoBehaviour
             } else {
                 netStates[i].SetActive(false);
             }
-        } 
-
+        }
     }
 
     // Update is called once per frame
