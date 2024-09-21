@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ApaAR.unity
     guid: aeadea5e57c697145bc0c6dd35355418
+  - enabled: 1
+    path: Assets/Scenes/Contoh2.2.unity
+    guid: 597787e7e59891a4bb488670a2162ae8
   m_configObjects: {}
