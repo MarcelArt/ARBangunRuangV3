@@ -239,9 +239,9 @@ MonoBehaviour:
   mTrackableName: 8
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.25
+  mAspectRatio: 1.2500001
   mImageTargetType: 3
-  mWidth: 0.16
+  mWidth: 0.15999998
   mHeight: 0.19999999
   mRuntimeTexture: {fileID: 2800000, guid: ebbda82b224307c479abaf05f0ffc01a, type: 3}
   mMotionHint: 1
@@ -759,9 +759,9 @@ MonoBehaviour:
   mTrackableName: 4
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.25
+  mAspectRatio: 1.2500001
   mImageTargetType: 3
-  mWidth: 0.16
+  mWidth: 0.15999998
   mHeight: 0.19999999
   mRuntimeTexture: {fileID: 2800000, guid: 8e1f856986c530341b87a4e922c998ef, type: 3}
   mMotionHint: 1
@@ -1144,9 +1144,9 @@ MonoBehaviour:
   mTrackableName: 9
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.25
+  mAspectRatio: 1.2500001
   mImageTargetType: 3
-  mWidth: 0.16
+  mWidth: 0.15999998
   mHeight: 0.19999999
   mRuntimeTexture: {fileID: 2800000, guid: 6b5837272f200d04bbc29c59ae513942, type: 3}
   mMotionHint: 1
