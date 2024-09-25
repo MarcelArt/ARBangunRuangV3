@@ -553,14 +553,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: CubeNet
+  mTrackableName: CubeNetNew
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.8459302
+  mAspectRatio: 1.25
   mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.16918604
-  mRuntimeTexture: {fileID: 2800000, guid: faa8f6e552c2da24ebcc474db20c3f04, type: 3}
+  mWidth: 0.16
+  mHeight: 0.19999999
+  mRuntimeTexture: {fileID: 2800000, guid: 90cffbb1d17072b418dae373507716ba, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -579,7 +579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 98758719}
   mHiddenRoot: {fileID: 0}
-  mTargetName: CubeNet
+  mTargetName: CubeNetNew
   mDatasetName: 
   mCastedBehaviour: {fileID: 98758719}
   mMeshFilter: {fileID: 0}
@@ -678,14 +678,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: HexaprismNet
+  mTrackableName: HexaprismNetNew
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.69145566
+  mAspectRatio: 1.25
   mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.13829114
-  mRuntimeTexture: {fileID: 2800000, guid: 05ce8697d98318247b5f84fb72b9d703, type: 3}
+  mWidth: 0.16
+  mHeight: 0.19999999
+  mRuntimeTexture: {fileID: 2800000, guid: 07879de1dcdce5c419f823a143e89bc8, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -704,7 +704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 148437289}
   mHiddenRoot: {fileID: 0}
-  mTargetName: HexaprismNet
+  mTargetName: HexaprismNetNew
   mDatasetName: 
   mCastedBehaviour: {fileID: 148437289}
   mMeshFilter: {fileID: 0}
@@ -782,11 +782,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   netStates:
-  - {fileID: 1943171668}
   - {fileID: 1263210209}
   - {fileID: 1949762994}
   - {fileID: 1899121960}
   - {fileID: 436487330}
+  - {fileID: 1943171668}
   rotationSpeed: 0.2
   tapTolerationTime: 0.2
 --- !u!114 &155508168
@@ -892,11 +892,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   netStates:
-  - {fileID: 1833408613}
   - {fileID: 1840394888}
   - {fileID: 1241013555}
   - {fileID: 506647908}
   - {fileID: 1708579180}
+  - {fileID: 1833408613}
   rotationSpeed: 0.2
   tapTolerationTime: 0.2
 --- !u!65 &290223446
@@ -1321,14 +1321,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Prismsegi3Net
+  mTrackableName: Prismasegi3NetNew
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.0230769
+  mAspectRatio: 1.2500001
   mImageTargetType: 3
-  mWidth: 0.19548872
-  mHeight: 0.19999999
-  mRuntimeTexture: {fileID: 2800000, guid: c66a1fe5beba4b7468b6bea94d1df572, type: 3}
+  mWidth: 0.15999998
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: 1d6daed0d9dd38d4cb772f6dee079d87, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -1347,7 +1347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 645892992}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Prismsegi3Net
+  mTargetName: Prismasegi3NetNew
   mDatasetName: 
   mCastedBehaviour: {fileID: 645892992}
   mMeshFilter: {fileID: 0}
@@ -1424,10 +1424,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   netStates:
-  - {fileID: 37959079}
   - {fileID: 1846382915}
   - {fileID: 1726780631}
   - {fileID: 65200304}
+  - {fileID: 37959079}
   rotationSpeed: 0.2
   tapTolerationTime: 0.2
 --- !u!114 &654070283
@@ -1826,7 +1826,7 @@ GameObject:
   - component: {fileID: 869459055}
   - component: {fileID: 869459058}
   - component: {fileID: 869459057}
-  - component: {fileID: 869459060}
+  - component: {fileID: 869459059}
   m_Layer: 0
   m_Name: D_Limassegi4Net
   m_TagString: Untagged
@@ -1909,19 +1909,19 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Limassegi4Net
+  mTrackableName: Limassegi4NetNew
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.9580574
+  mAspectRatio: 1.25
   mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.19161148
-  mRuntimeTexture: {fileID: 2800000, guid: 4d935365d9c14924c9cabf22ef7df354, type: 3}
+  mWidth: 0.16
+  mHeight: 0.19999999
+  mRuntimeTexture: {fileID: 2800000, guid: 788aab93d3564f3499bcc6996620d61c, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 869459060}
---- !u!114 &869459060
+  mPreview: {fileID: 869459059}
+--- !u!114 &869459059
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1935,7 +1935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 869459058}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Limassegi4Net
+  mTargetName: Limassegi4NetNew
   mDatasetName: 
   mCastedBehaviour: {fileID: 869459058}
   mMeshFilter: {fileID: 0}
@@ -2697,11 +2697,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   netStates:
-  - {fileID: 73808287}
   - {fileID: 722781562}
   - {fileID: 861169019}
   - {fileID: 1890469104}
   - {fileID: 1312566325}
+  - {fileID: 73808287}
   rotationSpeed: 0.2
   tapTolerationTime: 0.2
 --- !u!114 &1707269449
