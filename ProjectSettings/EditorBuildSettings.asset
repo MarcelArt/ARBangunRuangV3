@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Mencoba2.1.unity
     guid: 487aeac7e2b3a32459c57523f5d281cf
   - enabled: 1
+    path: Assets/Scenes/PetaKonsep.unity
+    guid: 79505093e9750e34a8f2877ff644dce6
+  - enabled: 1
     path: Assets/Scenes/ApaAR.unity
     guid: aeadea5e57c697145bc0c6dd35355418
   - enabled: 1
