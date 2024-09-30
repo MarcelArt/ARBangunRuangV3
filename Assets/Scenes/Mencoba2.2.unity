@@ -3241,11 +3241,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1326109437}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.781, y: 0.045161963}
-  m_AnchorMax: {x: 0.96900004, y: 0.19445951}
-  m_AnchoredPosition: {x: -733, y: -0.7390137}
-  m_SizeDelta: {x: 16.640198, y: 3.933197}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 21.679901, y: 22.294388}
+  m_SizeDelta: {x: 200.6402, y: 85.9332}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1528331636
 MonoBehaviour:
   m_ObjectHideFlags: 0
