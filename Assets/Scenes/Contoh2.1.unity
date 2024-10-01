@@ -3359,6 +3359,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f8a2e17d92e3cc84e90ef53718eccbf3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2092201452}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f8a2e17d92e3cc84e90ef53718eccbf3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2092201454}
   m_SourcePrefab: {fileID: 100100000, guid: f8a2e17d92e3cc84e90ef53718eccbf3, type: 3}
 --- !u!4 &2092201450 stripped
 Transform:
@@ -3406,6 +3409,21 @@ MonoBehaviour:
   geometryNameText: {fileID: 1692680365}
   geometryName: Bola
   fadeRate: 2
+--- !u!114 &2092201454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092201451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dea017e83c7af429d323c8d26d892a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  netStates: []
+  rotationSpeed: 0.2
+  tapTolerationTime: 0.2
 --- !u!1 &2111385307
 GameObject:
   m_ObjectHideFlags: 0
