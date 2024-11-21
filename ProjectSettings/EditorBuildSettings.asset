@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mencoba2.2.unity
     guid: a30f7fdf9e9541d49bba46b7164b2d31
+  - enabled: 1
+    path: Assets/Scenes/Latihan1.unity
+    guid: d71255b26a8565344a5475f50837bdc6
+  - enabled: 1
+    path: Assets/Scenes/Latihan2.unity
+    guid: 97395834a90d31c48850006c4b147e2b
+  - enabled: 1
+    path: Assets/Scenes/PostSection.unity
+    guid: 84e162c19985e374ea66c66973ca5e22
   m_configObjects: {}
