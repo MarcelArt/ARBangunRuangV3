@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PostSection.unity
     guid: 84e162c19985e374ea66c66973ca5e22
+  - enabled: 1
+    path: Assets/Scenes/LPBangunDatar.unity
+    guid: 317f3db0607791e4cafd53e0d0269fe4
   m_configObjects: {}
