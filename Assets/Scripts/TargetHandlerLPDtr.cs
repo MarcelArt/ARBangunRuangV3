@@ -5,7 +5,7 @@ using UnityEngine;
 public class TargetHandlerLPDtr : MonoBehaviour
 {
     public GameObject kubusTarget; // GameObject untuk target Kubus
-    public GameObject balokTarget; // GameObject untuk target Balok
+    public GameObject LimasTarget; // GameObject untuk target Balok
 
     public GameObject inputFieldA; // Input Field untuk Kubus
     public GameObject inputFieldB; // Input Field untuk Balok
@@ -20,7 +20,7 @@ public class TargetHandlerLPDtr : MonoBehaviour
             ShowKubusInput();
         }
         // Periksa apakah target Balok aktif
-        else if (balokTarget.activeInHierarchy)
+        else if (LimasTarget.activeInHierarchy)
         {
             ShowBalokInput();
         }
