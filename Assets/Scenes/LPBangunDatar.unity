@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2252,14 +2252,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: targetKubus
+  mTrackableName: targetKubus2
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.25
+  mAspectRatio: 1.2500001
   mImageTargetType: 3
-  mWidth: 0.16
+  mWidth: 0.15999998
   mHeight: 0.19999999
-  mRuntimeTexture: {fileID: 2800000, guid: 51645dadd0b93d94fbf37d17ee72faa5, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 31de5a738fb85f84c8711a7189b7ecb4, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -2278,7 +2278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1093403635}
   mHiddenRoot: {fileID: 0}
-  mTargetName: targetKubus
+  mTargetName: targetKubus2
   mDatasetName: 
   mCastedBehaviour: {fileID: 1093403635}
   mMeshFilter: {fileID: 0}
@@ -3249,14 +3249,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: targetBalok
+  mTrackableName: targetLimas
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.25
+  mAspectRatio: 1.2500001
   mImageTargetType: 3
-  mWidth: 0.16
+  mWidth: 0.15999998
   mHeight: 0.19999999
-  mRuntimeTexture: {fileID: 2800000, guid: 1c694604678d954458538940a63b9d0f, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 22cda12dd73697648ba3456c3eb9e827, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -3275,7 +3275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1572929246}
   mHiddenRoot: {fileID: 0}
-  mTargetName: targetBalok
+  mTargetName: targetLimas
   mDatasetName: 
   mCastedBehaviour: {fileID: 1572929246}
   mMeshFilter: {fileID: 0}
