@@ -2228,14 +2228,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: target LP kubus
+  mTrackableName: targetKubus
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1
+  mAspectRatio: 1.25
   mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: f6328a84a3a8d49499329c7443cda7a6, type: 3}
+  mWidth: 0.16
+  mHeight: 0.19999999
+  mRuntimeTexture: {fileID: 2800000, guid: 51645dadd0b93d94fbf37d17ee72faa5, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1093403635}
   mHiddenRoot: {fileID: 0}
-  mTargetName: target LP kubus
+  mTargetName: targetKubus
   mDatasetName: 
   mCastedBehaviour: {fileID: 1093403635}
   mMeshFilter: {fileID: 0}
@@ -3200,14 +3200,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: LPTargetBalok2
+  mTrackableName: targetBalok
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1
+  mAspectRatio: 1.25
   mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: cd2a28b93c4150c4aa78f05600b9e247, type: 3}
+  mWidth: 0.16
+  mHeight: 0.19999999
+  mRuntimeTexture: {fileID: 2800000, guid: 1c694604678d954458538940a63b9d0f, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -3226,7 +3226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1572929246}
   mHiddenRoot: {fileID: 0}
-  mTargetName: LPTargetBalok2
+  mTargetName: targetBalok
   mDatasetName: 
   mCastedBehaviour: {fileID: 1572929246}
   mMeshFilter: {fileID: 0}
