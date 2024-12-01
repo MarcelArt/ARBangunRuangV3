@@ -2252,14 +2252,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: targetKubus2
+  mTrackableName: targetKubus3
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.25
+  mAspectRatio: 1.2500001
   mImageTargetType: 3
-  mWidth: 0.16
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 31de5a738fb85f84c8711a7189b7ecb4, type: 3}
+  mWidth: 0.15999998
+  mHeight: 0.19999999
+  mRuntimeTexture: {fileID: 2800000, guid: f9c4f0e958bcfdc489f37bd7ea48f3df, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -2278,7 +2278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1093403635}
   mHiddenRoot: {fileID: 0}
-  mTargetName: targetKubus2
+  mTargetName: targetKubus3
   mDatasetName: 
   mCastedBehaviour: {fileID: 1093403635}
   mMeshFilter: {fileID: 0}
@@ -3249,14 +3249,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: targetLimas
+  mTrackableName: targetLimas2
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.25
+  mAspectRatio: 1.2500001
   mImageTargetType: 3
-  mWidth: 0.16
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 22cda12dd73697648ba3456c3eb9e827, type: 3}
+  mWidth: 0.15999998
+  mHeight: 0.19999999
+  mRuntimeTexture: {fileID: 2800000, guid: ce59f766471765d4799fb57432be9ae4, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -3275,7 +3275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1572929246}
   mHiddenRoot: {fileID: 0}
-  mTargetName: targetLimas
+  mTargetName: targetLimas2
   mDatasetName: 
   mCastedBehaviour: {fileID: 1572929246}
   mMeshFilter: {fileID: 0}
