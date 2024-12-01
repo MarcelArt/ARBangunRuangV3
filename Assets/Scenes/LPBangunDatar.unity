@@ -2255,10 +2255,10 @@ MonoBehaviour:
   mTrackableName: targetKubus2
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.2500001
+  mAspectRatio: 1.25
   mImageTargetType: 3
-  mWidth: 0.15999998
-  mHeight: 0.19999999
+  mWidth: 0.16
+  mHeight: 0.2
   mRuntimeTexture: {fileID: 2800000, guid: 31de5a738fb85f84c8711a7189b7ecb4, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -3252,10 +3252,10 @@ MonoBehaviour:
   mTrackableName: targetLimas
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.2500001
+  mAspectRatio: 1.25
   mImageTargetType: 3
-  mWidth: 0.15999998
-  mHeight: 0.19999999
+  mWidth: 0.16
+  mHeight: 0.2
   mRuntimeTexture: {fileID: 2800000, guid: 22cda12dd73697648ba3456c3eb9e827, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
