@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class RotateShape : MonoBehaviour
 {
-    public List<GameObject> netStates;
+    //public List<GameObject> netStates;
     public float rotationSpeed = 0.2f;
     public float tapTolerationTime;
     //public TextMeshProUGUI textMeshPro;
@@ -17,50 +17,28 @@ public class RotateShape : MonoBehaviour
     private float tapTolerationCountDown = 0;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        currentIndex = netStates.Count - 1;
+   // void Start()
+    //{
+      //  currentIndex = netStates.Count - 1;
 
-        for (int i = 0; i < netStates.Count; i++)
-        {
-            if (i == netStates.Count - 1)
-            {
-                netStates[i].SetActive(true);
-                currentIndex = i;
-            }
-            else
-            {
-                netStates[i].SetActive(false);
-            }
-        }
-    }
+      //  for (int i = 0; i < netStates.Count; i++)
+      //  {
+       //     if (i == netStates.Count - 1)
+        //    {
+        //        netStates[i].SetActive(true);
+         //       currentIndex = i;
+        //    }
+        //    else
+         //   {
+          //      netStates[i].SetActive(false);
+          //  }
+       // }
+   // }
 
     // Update is called once per frame
     void Update()
     {
-        // if (Input.touchCount > 0)
-        // {
-        //     Touch touch = Input.GetTouch(0);
-
-        //     if (touch.phase == TouchPhase.Began)
-        //     {
-        //         isDragging = true;
-        //         lastTouchPosition = touch.position;
-
-        //         tapTolerationCountDown = tapTolerationTime;
-        //     } else if (touch.phase == TouchPhase.Moved && isDragging) {
-        //         RotateObject(touch.position);
-        //         lastTouchPosition = touch.position;
-
-        //         tapTolerationCountDown -= Time.deltaTime;
-        //     } else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled) {
-        //         isDragging = false;
-
-        //         if (tapTolerationCountDown > 0) DetectTouch(touch.position);
-        //     }
-        // }
-
-        // For mouse input (PC)
+             // For mouse input (PC)
         if (Input.GetMouseButtonDown(0))
         {
             isDragging = true;
