@@ -38,7 +38,7 @@ public class SubmitScore : MonoBehaviour
         string playerName = nameInputField.text;
 
         // Kirim data ke server menggunakan coroutine
-        StartCoroutine(PostRequest("http://10.10.44.43:5001///submit-score", playerName, currentScore));
+        StartCoroutine(PostRequest("http://192.168.1.16:5001///submit-score", playerName, currentScore));
     }
 
     // Fungsi untuk mengirim request ke server

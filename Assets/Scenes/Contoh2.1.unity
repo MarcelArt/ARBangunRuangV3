@@ -350,6 +350,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e658b0b4c9ffc274b98576e6315ce1d5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 355860806}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e658b0b4c9ffc274b98576e6315ce1d5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 355860808}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e658b0b4c9ffc274b98576e6315ce1d5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 355860807}
   m_SourcePrefab: {fileID: 100100000, guid: e658b0b4c9ffc274b98576e6315ce1d5, type: 3}
 --- !u!4 &355860804 stripped
 Transform:
@@ -383,6 +389,35 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3613567641014311022, guid: e658b0b4c9ffc274b98576e6315ce1d5, type: 3}
+--- !u!114 &355860807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355860805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a84ea463e96a3284d9ee5a82e6e2b39e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  geometryNameText: {fileID: 1692680365}
+  geometryName: Kerucut
+  fadeRate: 2
+--- !u!114 &355860808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355860805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dea017e83c7af429d323c8d26d892a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 0.2
+  tapTolerationTime: 0.2
 --- !u!1 &376536272
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,7 +639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   geometryNameText: {fileID: 1692680365}
-  geometryName: Prisma
+  geometryName: Prisma segitiga
   fadeRate: 2
 --- !u!64 &382710032
 MeshCollider:
@@ -640,7 +675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71dea017e83c7af429d323c8d26d892a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  netStates: []
   rotationSpeed: 0.2
   tapTolerationTime: 0.2
 --- !u!1001 &404234076
@@ -784,7 +818,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71dea017e83c7af429d323c8d26d892a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  netStates: []
   rotationSpeed: 0.2
   tapTolerationTime: 0.2
 --- !u!1 &705507993
@@ -1339,7 +1372,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71dea017e83c7af429d323c8d26d892a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  netStates: []
   rotationSpeed: 0.2
   tapTolerationTime: 0.2
 --- !u!1001 &1101677678
@@ -1447,7 +1479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   geometryNameText: {fileID: 1692680365}
-  geometryName: Limas
+  geometryName: Limas segi empat
   fadeRate: 2
 --- !u!64 &1101677682
 MeshCollider:
@@ -1483,7 +1515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71dea017e83c7af429d323c8d26d892a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  netStates: []
   rotationSpeed: 0.2
   tapTolerationTime: 0.2
 --- !u!1 &1170936895
@@ -2027,7 +2058,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71dea017e83c7af429d323c8d26d892a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  netStates: []
   rotationSpeed: 0.2
   tapTolerationTime: 0.2
 --- !u!1 &1692680363
@@ -3014,7 +3044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71dea017e83c7af429d323c8d26d892a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  netStates: []
   rotationSpeed: 0.2
   tapTolerationTime: 0.2
 --- !u!1 &2035326381
@@ -3263,7 +3292,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71dea017e83c7af429d323c8d26d892a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  netStates: []
   rotationSpeed: 0.2
   tapTolerationTime: 0.2
 --- !u!1 &2111385307
